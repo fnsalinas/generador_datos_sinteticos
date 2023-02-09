@@ -13,7 +13,6 @@ then
     mensaje="Commit automatico"
 fi
 
-
 cd ~/workspace/fsalinas/generador_datos_sinteticos
 
 git status;
