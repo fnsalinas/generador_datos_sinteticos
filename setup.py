@@ -2,7 +2,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='Synthetic data generator',
+    name='Synthetic_data_generator',
     version='1.0',
     description='Program to generate synthetic data.',
     author='Fabio Salinas',

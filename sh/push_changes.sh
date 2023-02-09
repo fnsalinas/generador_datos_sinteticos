@@ -17,5 +17,5 @@ cd ~/workspace/fsalinas/generador_datos_sinteticos
 
 git status;
 git add .;
-git commit -m "$mensaje $fecha";
+git commit -m "$mensaje $fecha COT";
 git push;
