@@ -1,3 +1,4 @@
 pandas
-# fake-factory
 Faker
+Pillow
+numpyencoder

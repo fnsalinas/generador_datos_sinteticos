@@ -1,21 +1,21 @@
-"ID","name","address","cryptocurrency","credit_card_number","credit_card_expire","city","chrome"
-"1","Eligia Bermejo Aragón","Cuesta Wálter Sarabia 20
-Almería, 50327","('DOGE', 'Dogecoin')","3549528940162284","01/25","Guipúzcoa","Mozilla/5.0 (iPad; CPU iPad OS 9_3_5 like Mac OS X) AppleWebKit/532.2 (KHTML, like Gecko) CriOS/42.0.842.0 Mobile/97R947 Safari/532.2"
-"2","Samuel Benavente Batalla","Ronda de Milagros Leiva 36 Piso 0 
-Teruel, 01866","('NMC', 'Namecoin')","180083055679391","11/26","Vizcaya","Mozilla/5.0 (iPad; CPU iPad OS 7_1_2 like Mac OS X) AppleWebKit/535.0 (KHTML, like Gecko) CriOS/43.0.829.0 Mobile/46T469 Safari/535.0"
-"3","Silvestre Torrents Acosta","Cuesta Pacífica Grau 2 Apt. 24 
-Lleida, 23016","('DOGE', 'Dogecoin')","30528255998555","04/30","Guipúzcoa","Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_10_1) AppleWebKit/531.2 (KHTML, like Gecko) Chrome/16.0.854.0 Safari/531.2"
-"4","Victorino Escalona Martin","Vial Ágata Morán 48 Apt. 42 
-Madrid, 47501","('ZEC', 'Zcash')","501838644281","03/26","Jaén","Mozilla/5.0 (Windows NT 6.2) AppleWebKit/534.0 (KHTML, like Gecko) Chrome/29.0.805.0 Safari/534.0"
-"5","Noelia Espejo","Glorieta de Hernando Alberto 97 Piso 2 
-Burgos, 24993","('XRP', 'Ripple')","5226626476423388","01/31","Jaén","Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/45.0.811.0 Safari/535.2"
-"6","Benigna Nogués Murillo","Callejón de Bernarda Quintana 55
-Cantabria, 33365","('SRN', 'Sirin Labs')","5412643393198211","10/25","Segovia","Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_5) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/34.0.829.0 Safari/532.0"
-"7","Nico Gual Lledó","Callejón Jenaro Beltran 59
-Huesca, 06859","('KOI', 'Coinye')","4521458926459","05/29","Guipúzcoa","Mozilla/5.0 (X11; Linux i686) AppleWebKit/536.0 (KHTML, like Gecko) Chrome/15.0.824.0 Safari/536.0"
-"8","Leonel del Ferrer","Rambla de Adela Azorin 31 Piso 8 
-Soria, 03114","('EMC', 'Emercoin')","4685544199853343","02/28","Cuenca","Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_7_1) AppleWebKit/536.0 (KHTML, like Gecko) Chrome/21.0.838.0 Safari/536.0"
-"9","Bernardino Palma Olmo","Glorieta de Ainara Larrea 33
-Cuenca, 29653","('BTC', 'Bitcoin')","3573937878685803","05/27","Cuenca","Mozilla/5.0 (Linux; Android 2.2.1) AppleWebKit/531.2 (KHTML, like Gecko) Chrome/45.0.848.0 Safari/531.2"
-"10","Fidel Novoa","Rambla de Sarita Barroso 133 Apt. 64 
-Jaén, 15297","('XRP', 'Ripple')","3537548495435186","12/31","Vizcaya","Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_6 like Mac OS X) AppleWebKit/535.2 (KHTML, like Gecko) CriOS/22.0.835.0 Mobile/92L970 Safari/535.2"
+"ID","name","address","cryptocurrency","credit_card_number","credit_card_expire","country","city","chrome"
+"1","Trevor Stanley","05769 Gay Plaza
+Hughesburgh, MD 09141","('GRC', 'Gridcoin')","213190233275520","02/26","Chad","Port Katherine","Mozilla/5.0 (Macintosh; PPC Mac OS X 10_10_3) AppleWebKit/535.0 (KHTML, like Gecko) Chrome/43.0.888.0 Safari/535.0"
+"2","Lisa Scott","4389 Jamie Ford Apt. 743
+New Zacharychester, MD 18658","('ZCL', 'Zclassic')","6598841351263167","07/28","Poland","Morrishaven","Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_7_6) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/60.0.845.0 Safari/532.0"
+"3","Christopher Larson","796 Andersen Avenue Apt. 809
+Bookertown, IA 67855","('IOTA', 'IOTA')","6518855338779530","10/28","Syrian Arab Republic","Perkinsmouth","Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_4 like Mac OS X) AppleWebKit/536.2 (KHTML, like Gecko) CriOS/14.0.819.0 Mobile/25T381 Safari/536.2"
+"4","Troy Jacobs","Unit 9062 Box 1380
+DPO AP 66128","('BTC', 'Bitcoin')","180085842930722","06/31","Norfolk Island","Meghanmouth","Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_9_8) AppleWebKit/536.0 (KHTML, like Gecko) Chrome/13.0.804.0 Safari/536.0"
+"5","Jay Miller","39627 Robinson Centers Apt. 603
+New Terryside, FL 39896","('AMP', 'AMP')","4833787429625343","01/33","Senegal","Evansstad","Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_7_3) AppleWebKit/536.2 (KHTML, like Gecko) Chrome/21.0.832.0 Safari/536.2"
+"6","Kimberly Tate","9974 Taylor Course Apt. 901
+East Johnchester, CA 11219","('MSC', 'Omni')","377418331749282","06/29","Jamaica","Allenland","Mozilla/5.0 (Linux; Android 3.2.2) AppleWebKit/536.0 (KHTML, like Gecko) Chrome/38.0.827.0 Safari/536.0"
+"7","Maria Brooks","61227 Jean Underpass
+Cynthiafort, TX 44116","('BCH', 'Bitcoin Cash')","347011573744488","07/30","French Polynesia","West Janice","Mozilla/5.0 (Macintosh; PPC Mac OS X 10_9_4) AppleWebKit/533.2 (KHTML, like Gecko) Chrome/14.0.870.0 Safari/533.2"
+"8","Angel Jenkins","41833 Hughes Field
+Rittershire, DE 10052","('POT', 'PotCoin')","676118260139","11/25","Liberia","Martinfort","Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/535.2 (KHTML, like Gecko) CriOS/43.0.854.0 Mobile/92H557 Safari/535.2"
+"9","William Bennett","037 Stevens Shore Apt. 158
+Elizabethmouth, AK 93307","('ETH', 'Ethereum')","4801481160571380135","04/32","Iran","Seanborough","Mozilla/5.0 (Linux; Android 7.1) AppleWebKit/533.2 (KHTML, like Gecko) Chrome/28.0.810.0 Safari/533.2"
+"10","Timothy Rosales","USNV Ramirez
+FPO AA 18914","('TRX', 'TRON')","180028834453402","10/29","Norfolk Island","Port Scottberg","Mozilla/5.0 (Linux; Android 2.2.2) AppleWebKit/533.2 (KHTML, like Gecko) Chrome/14.0.805.0 Safari/533.2"
