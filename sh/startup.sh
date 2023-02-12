@@ -57,7 +57,7 @@ if [ -d "~/generador_datos_sinteticos" ]; then
     git pull;
 else
     echo "~/generador_datos_sinteticos does not exist"
-    git clone
+    git clone https://github.com/fnsalinas/generador_datos_sinteticos.git
     cd ~/generador_datos_sinteticos/
 fi
 
