@@ -14,9 +14,6 @@ from datagen import get_client_data, get_user_data, get_product_data, get_catego
 
 from csv import DictReader
 
-columns_orders: List[str] = ["order_id", "order_customer_id", "order_product_id",
-                             "order_quantity", "order_price", "order_created_at", "order_updated_at"]
-
 
 def get_orders_data(client_data: Dict[str, Any], product_data: Dict[str, Any]) -> Dict[str, Any]:
 
