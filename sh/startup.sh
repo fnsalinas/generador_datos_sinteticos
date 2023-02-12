@@ -61,6 +61,16 @@ else
     cd ~/generador_datos_sinteticos/
 fi
 
+# Install uvicorn if not installed (pipenv install uvicorn)
+if ! command -v uvicorn &> /dev/null
+then
+    echo "uvicorn could not be found"
+    echo "Installing uvicorn"
+    pipenv install uvicorn
+else
+    echo "uvicorn already installed"
+fi
+
 if grep -q "CUSTOM SCRIPTS" ~/.bashrc; then
     echo "CUSTOM SCRIPTS already exists in ~/.bashrc"
 else

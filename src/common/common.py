@@ -4,6 +4,7 @@ from datetime import datetime
 from typing import Tuple, List
 import random
 
+
 def get_latlong(latlng: str) -> Tuple[str, str]:
     """
     Get latitude and longitude from a string with format: 'lat, long'
@@ -16,6 +17,7 @@ def get_latlong(latlng: str) -> Tuple[str, str]:
     lat, long = latlng.split(",")
     lat, long = lat.split("'")[1], long.split("'")[1]
     return lat, long
+
 
 def get_email(first_name: str, last_name: str, birth_date: str) -> str:
     """
@@ -41,6 +43,7 @@ def get_email(first_name: str, last_name: str, birth_date: str) -> str:
 
     return f"{t1}{t2}{random.choice(['-', '_', ''])}{t3}@{EMAIL_DOMAIN}".replace(" ", "")
 
+
 def get_created_and_modified_at(fake: Faker, created_at_start_date: datetime = datetime(2015, 1, 1), force_generation_mod_date: bool = False) -> Tuple[str, str]:
     """
     Get a random created_at and modified_at date and time
@@ -59,6 +62,7 @@ def get_created_and_modified_at(fake: Faker, created_at_start_date: datetime = d
 
     return created_at_str, modified_at_str
 
+
 def get_user_name(first_name: str, last_name: str) -> str:
     """
     Get a random user name from a first name and a last name as a string
@@ -71,10 +75,13 @@ def get_user_name(first_name: str, last_name: str) -> str:
         str: Random user name
     """
     random_number: str = f"{random.randint(1, 9999):04d}"
-    user_name: str = f"{first_name.replace(' ', '_')}_{last_name.replace(' ', '_')}_{random_number}".lower()
-    user_name: str = "".join([x for x in user_name if x.isalnum() or x in ['_', '-']])
-    
+    user_name: str = f"{first_name.replace(' ', '_')}_{last_name.replace(' ', '_')}_{random_number}".lower(
+    )
+    user_name: str = "".join(
+        [x for x in user_name if x.isalnum() or x in ['_', '-']])
+
     return user_name
+
 
 def get_date_from_string(date_str: str) -> datetime:
     """

@@ -9,6 +9,8 @@ pandas = "*"
 faker = "*"
 pillow = "*"
 numpyencoder = "*"
+fastapi = "*"
+uvicorn = "*"
 
 [dev-packages]
 ipykernel = "*"
