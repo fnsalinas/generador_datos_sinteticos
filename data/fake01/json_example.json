@@ -1,0 +1,19 @@
+{
+    "customer_id": "2FD34A03062C459BBB210E90B77D99AF",
+    "nif": "69281711F",
+    "first_name": "Anna",
+    "last_name": "Ramos",
+    "date_of_birth": "1962-11-21",
+    "sex": "female",
+    "blood_group": "B-",
+    "city": "Santa Cruz de Tenerife",
+    "customer_address": "Cuesta de Osvaldo Cazorla 72 Apt. 51 \nJaén, 39575",
+    "lat": "30.2444265",
+    "long": "76.749982",
+    "region": "Extremadura",
+    "timezone": "Africa/Maputo",
+    "customer_phone": "+34884623771",
+    "customer_email": "annaraaa-191@zoho.com",
+    "customer_created_at": "2018-05-26 21:11:41 UTC",
+    "customer_updated_at": "2022-09-24 02:52:23 UTC"
+}
