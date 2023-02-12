@@ -3,7 +3,11 @@ from typing import Dict, List, Any
 import random
 import json
 
-from datagen import get_client_data, get_user_data, get_product_data
+from datagen import (
+    get_client_data,
+    get_user_data,
+    get_product_data
+)
 
 from csv import DictReader
 

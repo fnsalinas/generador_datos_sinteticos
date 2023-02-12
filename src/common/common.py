@@ -41,7 +41,7 @@ def get_email(first_name: str, last_name: str, birth_date: str) -> str:
 
     return f"{t1}{t2}{random.choice(['-', '_', ''])}{t3}@{EMAIL_DOMAIN}".replace(" ", "")
 
-def get_created_and_modified_at(fake: Faker, created_at_start_date: datetime = datetime(2015, 1, 1)) -> Tuple[str, str]:
+def get_created_and_modified_at(fake: Faker, created_at_start_date: datetime = datetime(2015, 1, 1), force_generation_mod_date: bool = False) -> Tuple[str, str]:
     """
     Get a random created_at and modified_at date and time
     Returns:
@@ -54,7 +54,8 @@ def get_created_and_modified_at(fake: Faker, created_at_start_date: datetime = d
     modified_at_dt: str = fake.date_time_between(
         start_date=created_at_dt, end_date="now", tzinfo=None)
     modified_at_str: str = f"{modified_at_dt.strftime('%Y-%m-%d %H:%M:%S')} UTC"
-    modified_at_str: str = random.choice([modified_at_str, "", "", ""])
+    if not force_generation_mod_date:
+        modified_at_str: str = random.choice([modified_at_str, "", "", ""])
 
     return created_at_str, modified_at_str
 
