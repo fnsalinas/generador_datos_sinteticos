@@ -24,7 +24,8 @@ then
     sudo apt-get update -y
     sudo apt install python3-pip -y
 else
-    echo "pip already installed"
+    echo "pip already installed, updating pip"
+    sudo apt update && sudo apt upgrade -y
 fi
 
 # Install pipenv if not installed
@@ -76,5 +77,16 @@ else
     echo "alias python='python3'" >> ~/.bashrc
 fi
 
-source ~/.bashrc
-cd ~/generador_datos_sinteticos/
+source ~/.bashrc;
+cd ~/generador_datos_sinteticos/;
+
+# Install dependencies
+echo "Running pipenv install";
+pipenv install;
+
+echo "Running pipenv install -r requirements.txt";
+pipenv install -r requirements.txt;
+
+echo "Running pipenv install -e .";
+pipenv install -e .;
+
