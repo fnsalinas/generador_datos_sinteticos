@@ -15,7 +15,7 @@ config: Dict[str, Any] = update_config_json()
 APP_MAIN_PATH: str = config["app_main_path"]
 
 def get_categories_list() -> List[Dict[str, Any]]:
-    categories_file_path: str = f"{APP_MAIN_PATH}/generador_datos_sinteticos/data/datasets/categories.csv"
+    categories_file_path: str = f"{APP_MAIN_PATH}/data/datasets/categories.csv"
 
     with open(categories_file_path, "r") as input_file:
         reader: DictReader = DictReader(input_file)
