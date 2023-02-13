@@ -4,3 +4,4 @@ Pillow
 # numpyencoder
 fastapi[all]
 diffusers==0.8.0
+uvicorn
