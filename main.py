@@ -26,5 +26,5 @@ def read_root(noclients: int):
 
 if __name__ == "__main__":
     import uvicorn
-    print("-"*10 + f"IP identificada: {config['ip']}")
-    uvicorn.run(app, host=config["ip"], port=8000)
+    print("-"*10 + f"IP identificada: {config['ip']}:{config['port']}" + "-"*10)
+    uvicorn.run(app, host=config["ip"], port=config["port"])
