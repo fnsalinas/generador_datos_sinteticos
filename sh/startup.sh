@@ -78,15 +78,23 @@ else
 fi
 
 source ~/.bashrc;
-cd ~/generador_datos_sinteticos/;
+cd ~/generador_datos_sinteticos;
 
-# Install dependencies
-echo "Running pipenv install";
-pipenv install;
+# Install dependencies if the actual foldername is generador_datos_sinteticos, if not, exit
+if [ "${PWD##*/}" = "generador_datos_sinteticos" ]; then
+    echo "Installing dependencies"
+    echo "Running pipenv install";
+    pipenv install;
 
-echo "Running pipenv install -r requirements.txt";
-pipenv install -r requirements.txt;
+    echo "Running pipenv install -r requirements.txt";
+    pipenv install -r requirements.txt;
 
-echo "Running pipenv install -e .";
-pipenv install -e .;
+    echo "Running pipenv install -e .";
+    pipenv install -e .;
+else
+    echo "The actual foldername is not generador_datos_sinteticos, exiting"
+    exit 1
+fi
+
+
 

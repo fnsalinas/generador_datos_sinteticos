@@ -37,7 +37,7 @@ def get_app_path():
     return MAIN_PATH
 
 
-def update_config_json() -> None:
+def update_config_json() -> Dict[str, Any]:
     """
     Update the config.json file with new configuration parameters
     Args:
@@ -49,16 +49,20 @@ def update_config_json() -> None:
 
     HOSTNAME: str = get_hostname()
     APPPATH: str = get_app_path()
+    IP: str = "52.14.11.142:8000" if "ip-" in HOSTNAME else "localhost:8000"
 
     with open(f"{APPPATH}/data/config/config_app.json", "r") as input_file:
         config_json: Dict[str, Any] = json.load(input_file)
 
     config_json[HOSTNAME] = {
-        "app_main_path": APPPATH
+        "app_main_path": APPPATH,
+        "ip": IP,
     }
 
     with open(f"{APPPATH}/data/config/config_app.json", "w") as output_file:
         json.dump(config_json, output_file, indent=4)
+
+    return config_json[HOSTNAME]
 
 
 if __name__ == "__main__":
