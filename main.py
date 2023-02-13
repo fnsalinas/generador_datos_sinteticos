@@ -18,6 +18,8 @@ def read_root():
 
 @app.get("/get_{noclients}_clients")
 def read_root(noclients: int):
+    if noclients > 100:
+        return {"Error": "The number of clients must be less than 100"}
     clients_list: List[str] = [get_full_data() for i in range(noclients)]
     return json.dumps(clients_list, indent=4)
 

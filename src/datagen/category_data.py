@@ -25,7 +25,7 @@ def get_categories_list() -> List[Dict[str, Any]]:
 
 
 def get_category_data(product_data: Dict[str, Any]) -> Dict[str, Any]:
-    """
+    """s
     Get a random product data as a dictionary from a list of products
     Returns:
         Dict[str, Any]: Dictionary with product data from a list of products
