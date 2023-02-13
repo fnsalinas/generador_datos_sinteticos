@@ -118,6 +118,7 @@ then
         }
     }" > /etc/nginx/sites-enabled/fastapi_nginx
     sudo service nginx restart
+    echo "nginx configured and restarted successfully"
 else
     echo "nginx already installed"
 fi

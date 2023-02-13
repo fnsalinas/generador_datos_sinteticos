@@ -2,11 +2,11 @@
     "DESKTOP-RDKL25O": {
         "app_main_path": "/home/ubuntu/workspace/fsalinas/generador_datos_sinteticos",
         "ip": "127.0.0.1",
-        "port": "8000"
+        "port": 8000
     },
     "ip-172-31-34-153": {
         "app_main_path": "/home/ubuntu/generador_datos_sinteticos",
         "ip": "127.0.0.1",
-        "port": "8000"
+        "port": 8000
     }
 }
