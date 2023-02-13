@@ -49,7 +49,7 @@ def update_config_json() -> Dict[str, Any]:
 
     HOSTNAME: str = get_hostname()
     APPPATH: str = get_app_path()
-    IP: str = "52.14.11.142:8000" if "ip-" in HOSTNAME else "localhost:8000"
+    IP: str = "52.14.11.142" if "ip-" in HOSTNAME else "localhost:8000"
 
     with open(f"{APPPATH}/data/config/config_app.json", "r") as input_file:
         config_json: Dict[str, Any] = json.load(input_file)
