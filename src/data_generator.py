@@ -28,5 +28,11 @@ def get_full_data() -> Dict[str, Any]:
         "order_data": order_data,
         "invoice_data": invoice_data
     }
-    
+
     return FULL_DATA
+
+
+if __name__ == "__main__":
+    # Test module functionality by printing a random user data
+    full_data: Dict[str, Any] = get_full_data()
+    print(json.dumps(full_data, indent=4))
