@@ -26,4 +26,4 @@ def read_root(noclients: int):
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host=config["IP"], port=8000)
+    uvicorn.run(app, host=config["ip"], port=8000)
