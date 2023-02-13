@@ -2,18 +2,20 @@
 from typing import Dict, List, Any
 import random
 import json
+from csv import DictReader
 
 from datagen import (
     get_client_data,
     get_user_data,
     get_product_data
 )
+from common.config_app import update_config_json
 
-from csv import DictReader
-
+config: Dict[str, Any] = update_config_json()
+APP_MAIN_PATH: str = config["app_main_path"]
 
 def get_categories_list() -> List[Dict[str, Any]]:
-    categories_file_path: str = "/home/ubuntu/workspace/fsalinas/generador_datos_sinteticos/data/datasets/categories.csv"
+    categories_file_path: str = f"{APP_MAIN_PATH}/generador_datos_sinteticos/data/datasets/categories.csv"
 
     with open(categories_file_path, "r") as input_file:
         reader: DictReader = DictReader(input_file)

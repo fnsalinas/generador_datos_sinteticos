@@ -97,4 +97,27 @@ else
 fi
 
 
-
+# install nginx if not installed
+if ! command -v nginx &> /dev/null
+then
+    echo "nginx could not be found"
+    echo "Installing nginx"
+    sudo apt update && sudo apt upgrade -y
+    sudo apt install nginx -y
+    
+    echo "Configuring nginx"
+    sudo ufw app list
+    sudo ufw allow 'Nginx HTTP'
+    
+    echo writing nginx config
+    sudo echo "server {
+        listen 80;
+        server_name 52.14.11.142;
+        location / {
+            proxy_pass http://127.0.0.1:8000;
+        }
+    }" > /etc/nginx/sites-enabled/fastapi_nginx
+    sudo service nginx restart
+else
+    echo "nginx already installed"
+fi
