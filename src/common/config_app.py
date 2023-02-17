@@ -44,7 +44,7 @@ def get_ipv4_from_aws_vm() -> str:
     Returns:
         str: Public IPv4 of the AWS VM
     """
-    request = requests.get("curl http://checkip.amazonaws.com")
+    request = requests.get("http://checkip.amazonaws.com")
     return request.text.strip()
 
 
