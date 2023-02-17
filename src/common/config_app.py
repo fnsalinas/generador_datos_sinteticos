@@ -58,7 +58,8 @@ def update_config_json() -> Dict[str, Any]:
     config_json[HOSTNAME] = {
         "app_main_path": APPPATH,
         "ip": IP,
-        "port": PORT
+        "port": PORT,
+        "aws_ipv4": "3.137.208.23"
     }
 
     with open(f"{APPPATH}/data/config/config_app.json", "w") as output_file:
