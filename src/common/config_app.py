@@ -2,6 +2,7 @@
 from typing import List, Dict, Any
 import json
 from pathlib import Path
+import requests
 
 
 def get_hostname() -> str:
@@ -37,6 +38,16 @@ def get_app_path():
     return MAIN_PATH
 
 
+def get_ipv4_from_aws_vm() -> str:
+    """
+    Get the public IPv4 of the AWS VM
+    Returns:
+        str: Public IPv4 of the AWS VM
+    """
+    request = requests.get("curl http://checkip.amazonaws.com")
+    return request.text.strip()
+
+
 def update_config_json() -> Dict[str, Any]:
     """
     Update the config.json file with new configuration parameters
@@ -54,12 +65,14 @@ def update_config_json() -> Dict[str, Any]:
 
     with open(f"{APPPATH}/data/config/config_app.json", "r") as input_file:
         config_json: Dict[str, Any] = json.load(input_file)
-
+    
+    IPv4: str = get_ipv4_from_aws_vm()
+    
     config_json[HOSTNAME] = {
         "app_main_path": APPPATH,
         "ip": IP,
         "port": PORT,
-        "aws_ipv4": "3.137.208.23"
+        "aws_ipv4": IPv4
     }
 
     with open(f"{APPPATH}/data/config/config_app.json", "w") as output_file:
@@ -72,4 +85,5 @@ if __name__ == "__main__":
     # Test module functionality by printing the hostname of the machine
     # print(get_hostname())
     # print(get_app_path())
-    update_config_json()
+    # update_config_json()
+    print(get_ipv4_from_aws_vm())
