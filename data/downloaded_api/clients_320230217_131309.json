@@ -1,0 +1,221 @@
+[
+    {
+        "client_data": {
+            "customer_id": "6161E5483E104B7596BFFCF84E8204D0",
+            "nif": "89875618J",
+            "first_name": "Amarilis",
+            "last_name": "Lu\u00eds",
+            "date_of_birth": "1933-01-10",
+            "sex": "female",
+            "blood_group": "AB-",
+            "city": "M\u00e1laga",
+            "customer_address": "Acceso de Estrella Avil\u00e9s 516 Apt. 54 \nBadajoz, 28531",
+            "lat": "-10.5048165",
+            "long": "47.158051",
+            "region": "Ciudad Aut\u00f3noma de Ceuta",
+            "timezone": "Africa/Lusaka",
+            "customer_phone": "+34922 698 518",
+            "customer_email": "iislaau\u00ed\u00ed_033131@hushmail.com",
+            "customer_created_at": "2019-01-20 17:39:52 UTC",
+            "customer_updated_at": ""
+        },
+        "user_data": {
+            "user_id": "54B5AB55125242289FB41FEE6036D01F",
+            "customer_id": "6161E5483E104B7596BFFCF84E8204D0",
+            "user_name": "amarilis_lu\u00eds_7425",
+            "user_password": "p$4^Z%sF$beYQQ",
+            "user_email": "iislaau\u00ed\u00ed_033131@hushmail.com",
+            "user_phone": "+34922 698 518",
+            "user_image_url": "https://picsum.photos/466/814",
+            "url": "https://hoyos.es/",
+            "user_created_at": "2019-01-20 17:39:52 UTC",
+            "user_updated_at": ""
+        },
+        "product_data": {
+            "product_id": "35CC00E7159E4482886E3D3D4AC03DAC",
+            "product_name": "Aceite de soja - 900cc",
+            "product_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s  when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries  but also the leap into electronic typesetting  remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages  and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "product_price": "17350",
+            "product_category": "Almac\u00e9n",
+            "product_stock": "2421",
+            "product_rating": "10",
+            "product_rating_count": "826892",
+            "product_reviews_count": "467",
+            "product_reviews": "",
+            "product_tags": "Productos de alimentos",
+            "product_created_at": "2000-01-01 12:00:00 UTC",
+            "product_updated_at": ""
+        },
+        "category_data": {
+            "category_id": "36AFD6BEC8864809BA6DD5F6187D9117",
+            "category_name": "Almac\u00e9n",
+            "category_description": "Lorem Ipsum is simply dummy text of the ",
+            "category_image_url": "https://picsum.photos/100/726",
+            "category_created_at": "2000-01-01 12:00:00 UTC",
+            "category_updated_at": ""
+        },
+        "order_data": {
+            "order_id": "0846ED80939B498D8E80DD1660B33B2A",
+            "order_customer_id": "6161E5483E104B7596BFFCF84E8204D0",
+            "order_product_id": "35CC00E7159E4482886E3D3D4AC03DAC",
+            "order_quantity": 4,
+            "order_price": "17350",
+            "order_created_at": "2021-11-01 16:31:22 UTC",
+            "order_updated_at": ""
+        },
+        "invoice_data": {
+            "invoice_id": "F56692F484F74C698EF7AC9206889A78",
+            "invoice_customer_id": "6161E5483E104B7596BFFCF84E8204D0",
+            "invoice_order_id": "0846ED80939B498D8E80DD1660B33B2A",
+            "invoice_amount": "69400.0",
+            "invoice_created_at": "2022-03-21 21:56:31 UTC",
+            "invoice_updated_at": ""
+        }
+    },
+    {
+        "client_data": {
+            "customer_id": "8A4B1ECF27B94A3895F159122DAB6A1E",
+            "nif": "04509026Z",
+            "first_name": "Lupe",
+            "last_name": "Acevedo",
+            "date_of_birth": "1939-12-26",
+            "sex": "male",
+            "blood_group": "O+",
+            "city": "Murcia",
+            "customer_address": "Camino de Marcela Ortega 476\nTarragona, 30026",
+            "lat": "-89.1673895",
+            "long": "-93.748288",
+            "region": "Illes Balears",
+            "timezone": "Australia/Brisbane",
+            "customer_phone": "+34 981334983",
+            "customer_email": "uppocdcoae919@hotmail.com",
+            "customer_created_at": "2015-10-02 09:43:32 UTC",
+            "customer_updated_at": ""
+        },
+        "user_data": {
+            "user_id": "2282DA1E7D8E4943B4CA0D1CDE25CC4E",
+            "customer_id": "8A4B1ECF27B94A3895F159122DAB6A1E",
+            "user_name": "lupe_acevedo_8185",
+            "user_password": "$a2oJJw1i6H8zd",
+            "user_email": "uppocdcoae919@hotmail.com",
+            "user_phone": "+34 981334983",
+            "user_image_url": "https://placekitten.com/89/177",
+            "url": "https://tejada.com/",
+            "user_created_at": "2015-10-02 09:43:32 UTC",
+            "user_updated_at": ""
+        },
+        "product_data": {
+            "product_id": "7BB06C97329E4A0A9DDC8255F14E770E",
+            "product_name": "Costilla de cerdo (Kg.)",
+            "product_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s  when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries  but also the leap into electronic typesetting  remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages  and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "product_price": "29005",
+            "product_category": "C\u00e1rnicos",
+            "product_stock": "570",
+            "product_rating": "5",
+            "product_rating_count": "927735",
+            "product_reviews_count": "24",
+            "product_reviews": "",
+            "product_tags": "Productos de carne",
+            "product_created_at": "2000-01-01 12:00:00 UTC",
+            "product_updated_at": ""
+        },
+        "category_data": {
+            "category_id": "80D51F624E304E1785195E67C376000C",
+            "category_name": "C\u00e1rnicos",
+            "category_description": "Lorem Ipsum is simply dummy text of the ",
+            "category_image_url": "https://placeimg.com/512/762/any",
+            "category_created_at": "2000-01-01 12:00:00 UTC",
+            "category_updated_at": ""
+        },
+        "order_data": {
+            "order_id": "08876F76324F439C978C6BE39683A51C",
+            "order_customer_id": "8A4B1ECF27B94A3895F159122DAB6A1E",
+            "order_product_id": "7BB06C97329E4A0A9DDC8255F14E770E",
+            "order_quantity": 4,
+            "order_price": "29005",
+            "order_created_at": "2022-04-02 03:42:20 UTC",
+            "order_updated_at": ""
+        },
+        "invoice_data": {
+            "invoice_id": "FBFCFFB8EDF1482ABA091DFF28F4D20B",
+            "invoice_customer_id": "8A4B1ECF27B94A3895F159122DAB6A1E",
+            "invoice_order_id": "08876F76324F439C978C6BE39683A51C",
+            "invoice_amount": "116020.0",
+            "invoice_created_at": "2022-06-27 11:14:14 UTC",
+            "invoice_updated_at": ""
+        }
+    },
+    {
+        "client_data": {
+            "customer_id": "4EDB30A16E48414B99344C29A11417C4",
+            "nif": "00810966D",
+            "first_name": "Ruperto",
+            "last_name": "Lastra",
+            "date_of_birth": "1972-10-20",
+            "sex": "male",
+            "blood_group": "B+",
+            "city": "C\u00e1ceres",
+            "customer_address": "Paseo Te\u00f3filo Azorin 166\nLa Coru\u00f1a, 40662",
+            "lat": "67.8667235",
+            "long": "-75.431949",
+            "region": "Principado de Asturias",
+            "timezone": "Asia/Tokyo",
+            "customer_phone": "+34 836 665 473",
+            "customer_email": "pooassaal91121@yahoo.com",
+            "customer_created_at": "2019-01-14 06:49:36 UTC",
+            "customer_updated_at": ""
+        },
+        "user_data": {
+            "user_id": "8C4EF5BCE31046BD90B94F3E7694A970",
+            "customer_id": "4EDB30A16E48414B99344C29A11417C4",
+            "user_name": "ruperto_lastra_2393",
+            "user_password": "m!7pk#No",
+            "user_email": "pooassaal91121@yahoo.com",
+            "user_phone": "+34 836 665 473",
+            "user_image_url": "https://dummyimage.com/580x590",
+            "url": "http://velez.org/",
+            "user_created_at": "2019-01-14 06:49:36 UTC",
+            "user_updated_at": ""
+        },
+        "product_data": {
+            "product_id": "03C5B6967E6845FDAAC73653990CD227",
+            "product_name": "Pollo entero  (Kg.)",
+            "product_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s  when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries  but also the leap into electronic typesetting  remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages  and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "product_price": "12551",
+            "product_category": "C\u00e1rnicos",
+            "product_stock": "3182",
+            "product_rating": "5",
+            "product_rating_count": "494000",
+            "product_reviews_count": "134",
+            "product_reviews": "",
+            "product_tags": "Productos de carne",
+            "product_created_at": "2000-01-01 12:00:00 UTC",
+            "product_updated_at": ""
+        },
+        "category_data": {
+            "category_id": "80D51F624E304E1785195E67C376000C",
+            "category_name": "C\u00e1rnicos",
+            "category_description": "Lorem Ipsum is simply dummy text of the ",
+            "category_image_url": "https://placeimg.com/512/762/any",
+            "category_created_at": "2000-01-01 12:00:00 UTC",
+            "category_updated_at": ""
+        },
+        "order_data": {
+            "order_id": "8B596456EBCE438AACACDCF700F543A4",
+            "order_customer_id": "4EDB30A16E48414B99344C29A11417C4",
+            "order_product_id": "03C5B6967E6845FDAAC73653990CD227",
+            "order_quantity": 5,
+            "order_price": "12551",
+            "order_created_at": "2023-02-14 04:00:53 UTC",
+            "order_updated_at": ""
+        },
+        "invoice_data": {
+            "invoice_id": "76328ADD623F4A31BEF79FBEBAC92FA9",
+            "invoice_customer_id": "4EDB30A16E48414B99344C29A11417C4",
+            "invoice_order_id": "8B596456EBCE438AACACDCF700F543A4",
+            "invoice_amount": "62755.0",
+            "invoice_created_at": "2021-11-04 03:54:36 UTC",
+            "invoice_updated_at": ""
+        }
+    }
+]

@@ -1,0 +1,75 @@
+[
+    {
+        "client_data": {
+            "customer_id": "A765B138E0F940B6BBC07D7A420CED67",
+            "nif": "36243873J",
+            "first_name": "Plinio",
+            "last_name": "Seco",
+            "date_of_birth": "1980-04-04",
+            "sex": "male",
+            "blood_group": "B+",
+            "city": "C\u00e1ceres",
+            "customer_address": "Urbanizaci\u00f3n Paz Sedano 11\nC\u00f3rdoba, 07571",
+            "lat": "-54.1290355",
+            "long": "-57.338387",
+            "region": "Castilla-La Mancha",
+            "timezone": "Asia/Jakarta",
+            "customer_phone": "+34 980 00 92 01",
+            "customer_email": "oiiosos804949@msn.com",
+            "customer_created_at": "2020-03-08 11:42:17 UTC",
+            "customer_updated_at": ""
+        },
+        "user_data": {
+            "user_id": "20F0C848FCE540D3995E4B284AD6B28C",
+            "customer_id": "A765B138E0F940B6BBC07D7A420CED67",
+            "user_name": "plinio_seco_6976",
+            "user_password": "!$JkJO8636WsJS",
+            "user_email": "oiiosos804949@msn.com",
+            "user_phone": "+34 980 00 92 01",
+            "user_image_url": "https://picsum.photos/632/71",
+            "url": "https://www.chacon.net/",
+            "user_created_at": "2020-03-08 11:42:17 UTC",
+            "user_updated_at": ""
+        },
+        "product_data": {
+            "product_id": "75AAB731297F44E1ABC35BFE85A46DE8",
+            "product_name": "Lavandina (1 lt)",
+            "product_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s  when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries  but also the leap into electronic typesetting  remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages  and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "product_price": "4232",
+            "product_category": "Domisanitario",
+            "product_stock": "3103",
+            "product_rating": "10",
+            "product_rating_count": "370081",
+            "product_reviews_count": "245",
+            "product_reviews": "",
+            "product_tags": "Productos de limpieza",
+            "product_created_at": "2000-01-01 12:00:00 UTC",
+            "product_updated_at": ""
+        },
+        "category_data": {
+            "category_id": "49909A0FE33A47E68319579F29666871",
+            "category_name": "Domisanitario",
+            "category_description": "Lorem Ipsum is simply dummy text of the ",
+            "category_image_url": "https://placekitten.com/457/669",
+            "category_created_at": "2000-01-01 12:00:00 UTC",
+            "category_updated_at": ""
+        },
+        "order_data": {
+            "order_id": "10C340196A724A2EA31B485B568EED91",
+            "order_customer_id": "A765B138E0F940B6BBC07D7A420CED67",
+            "order_product_id": "75AAB731297F44E1ABC35BFE85A46DE8",
+            "order_quantity": 9,
+            "order_price": "4232",
+            "order_created_at": "2023-01-01 21:53:38 UTC",
+            "order_updated_at": ""
+        },
+        "invoice_data": {
+            "invoice_id": "10D21591157D489385A9180D73B346B9",
+            "invoice_customer_id": "A765B138E0F940B6BBC07D7A420CED67",
+            "invoice_order_id": "10C340196A724A2EA31B485B568EED91",
+            "invoice_amount": "38088.0",
+            "invoice_created_at": "2022-08-20 17:49:58 UTC",
+            "invoice_updated_at": ""
+        }
+    }
+]

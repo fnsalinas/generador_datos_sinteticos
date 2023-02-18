@@ -1,0 +1,75 @@
+[
+    {
+        "client_data": {
+            "customer_id": "1E1B97FD8A354BA38548C122E3F7B72B",
+            "nif": "71537930H",
+            "first_name": "Gema",
+            "last_name": "Carrera",
+            "date_of_birth": "1988-03-04",
+            "sex": "female",
+            "blood_group": "O-",
+            "city": "Murcia",
+            "customer_address": "Pasaje Trinidad Leiva 87\nSegovia, 21041",
+            "lat": "42.642570",
+            "long": "141.446369",
+            "region": "Andaluc\u00eda",
+            "timezone": "Asia/Karachi",
+            "customer_phone": "+34 983 48 52 23",
+            "customer_email": "gamaracccr-10084099@protonmail.com",
+            "customer_created_at": "2018-02-16 08:29:51 UTC",
+            "customer_updated_at": "2022-06-21 21:43:30 UTC"
+        },
+        "user_data": {
+            "user_id": "E71B7833E59A4BB8A970B9FF42957B4C",
+            "customer_id": "1E1B97FD8A354BA38548C122E3F7B72B",
+            "user_name": "gema_carrera_2217",
+            "user_password": "Al)5aH2zqY3OS",
+            "user_email": "gamaracccr-10084099@protonmail.com",
+            "user_phone": "+34 983 48 52 23",
+            "user_image_url": "https://placekitten.com/938/50",
+            "url": "http://talavera.es/",
+            "user_created_at": "2018-02-16 08:29:51 UTC",
+            "user_updated_at": ""
+        },
+        "product_data": {
+            "product_id": "6C5FDD5966D64712B12202B81E7D1C53",
+            "product_name": "Yerba Mate (Paq. 1 Kl.)",
+            "product_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s  when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries  but also the leap into electronic typesetting  remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages  and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "product_price": "16081",
+            "product_category": "Almac\u00e9n",
+            "product_stock": "4232",
+            "product_rating": "8",
+            "product_rating_count": "338116",
+            "product_reviews_count": "431",
+            "product_reviews": "",
+            "product_tags": "Productos de alimentos",
+            "product_created_at": "2000-01-01 12:00:00 UTC",
+            "product_updated_at": ""
+        },
+        "category_data": {
+            "category_id": "36AFD6BEC8864809BA6DD5F6187D9117",
+            "category_name": "Almac\u00e9n",
+            "category_description": "Lorem Ipsum is simply dummy text of the ",
+            "category_image_url": "https://picsum.photos/100/726",
+            "category_created_at": "2000-01-01 12:00:00 UTC",
+            "category_updated_at": ""
+        },
+        "order_data": {
+            "order_id": "0AEC8C9BFA1B45FE9D8148B54B09D37C",
+            "order_customer_id": "1E1B97FD8A354BA38548C122E3F7B72B",
+            "order_product_id": "6C5FDD5966D64712B12202B81E7D1C53",
+            "order_quantity": 7,
+            "order_price": "16081",
+            "order_created_at": "2020-08-18 19:13:47 UTC",
+            "order_updated_at": ""
+        },
+        "invoice_data": {
+            "invoice_id": "797AC4F637104A3CACD6B2B41F67A1F2",
+            "invoice_customer_id": "1E1B97FD8A354BA38548C122E3F7B72B",
+            "invoice_order_id": "0AEC8C9BFA1B45FE9D8148B54B09D37C",
+            "invoice_amount": "112567.0",
+            "invoice_created_at": "2022-04-14 20:12:25 UTC",
+            "invoice_updated_at": ""
+        }
+    }
+]

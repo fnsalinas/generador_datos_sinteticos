@@ -1,0 +1,148 @@
+[
+    {
+        "client_data": {
+            "customer_id": "BC9E021F0E1040889408FB87860268B9",
+            "nif": "00940237C",
+            "first_name": "Alicia",
+            "last_name": "Villaverde",
+            "date_of_birth": "1964-07-25",
+            "sex": "female",
+            "blood_group": "A+",
+            "city": "Guadalajara",
+            "customer_address": "Camino de Guiomar Pel\u00e1ez 81 Piso 1 \nAlmer\u00eda, 38516",
+            "lat": "-46.989125",
+            "long": "-65.989770",
+            "region": "Cantabria",
+            "timezone": "Pacific/Port_Moresby",
+            "customer_phone": "+34841 529 314",
+            "customer_email": "cliiaaiadll6669570@outlook.com",
+            "customer_created_at": "2021-11-28 13:15:07 UTC",
+            "customer_updated_at": ""
+        },
+        "user_data": {
+            "user_id": "68A7825A790144409CC1E399AB357074",
+            "customer_id": "BC9E021F0E1040889408FB87860268B9",
+            "user_name": "alicia_villaverde_2451",
+            "user_password": "m)@s23l7(ArwGM",
+            "user_email": "cliiaaiadll6669570@outlook.com",
+            "user_phone": "+34841 529 314",
+            "user_image_url": "https://dummyimage.com/176x912",
+            "url": "http://alcantara.es/",
+            "user_created_at": "2021-11-28 13:15:07 UTC",
+            "user_updated_at": ""
+        },
+        "product_data": {
+            "product_id": "1819630A2DD0480482BB21BD01E37AEC",
+            "product_name": "Desodorante Personal 150 ml",
+            "product_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s  when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries  but also the leap into electronic typesetting  remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages  and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "product_price": "17403",
+            "product_category": "Aseo Personal",
+            "product_stock": "4834",
+            "product_rating": "10",
+            "product_rating_count": "657596",
+            "product_reviews_count": "122",
+            "product_reviews": "",
+            "product_tags": "Productos de higiene personal",
+            "product_created_at": "2000-01-01 12:00:00 UTC",
+            "product_updated_at": ""
+        },
+        "category_data": {
+            "category_id": "5FB58B4F70B841FDBD264967B1CAA28F",
+            "category_name": "Aseo Personal",
+            "category_description": "Lorem Ipsum is simply dummy text of the ",
+            "category_image_url": "https://placekitten.com/387/782",
+            "category_created_at": "2000-01-01 12:00:00 UTC",
+            "category_updated_at": ""
+        },
+        "order_data": {
+            "order_id": "1EAF42B6F4C845E4B22925EB52563FB2",
+            "order_customer_id": "BC9E021F0E1040889408FB87860268B9",
+            "order_product_id": "1819630A2DD0480482BB21BD01E37AEC",
+            "order_quantity": 4,
+            "order_price": "17403",
+            "order_created_at": "2023-02-03 16:21:27 UTC",
+            "order_updated_at": ""
+        },
+        "invoice_data": {
+            "invoice_id": "028D9A7FA2F84ED39752144591E7EB72",
+            "invoice_customer_id": "BC9E021F0E1040889408FB87860268B9",
+            "invoice_order_id": "1EAF42B6F4C845E4B22925EB52563FB2",
+            "invoice_amount": "69612.0",
+            "invoice_created_at": "2022-10-12 04:37:45 UTC",
+            "invoice_updated_at": ""
+        }
+    },
+    {
+        "client_data": {
+            "customer_id": "ECE68E69159A420A94AB59A2A4C0A221",
+            "nif": "50589421R",
+            "first_name": "Ariel",
+            "last_name": "Zamora",
+            "date_of_birth": "2007-05-04",
+            "sex": "female",
+            "blood_group": "A-",
+            "city": "Burgos",
+            "customer_address": "Glorieta Moreno Cant\u00f3n 290\nMelilla, 35498",
+            "lat": "-44.6985425",
+            "long": "-91.859523",
+            "region": "Regi\u00f3n de Murcia",
+            "timezone": "America/El_Salvador",
+            "customer_phone": "+34821 91 96 63",
+            "customer_email": "ieriaaaara200000@gmx.com",
+            "customer_created_at": "2019-11-06 04:42:14 UTC",
+            "customer_updated_at": "2022-10-27 08:47:42 UTC"
+        },
+        "user_data": {
+            "user_id": "1FD57F32B3D24624B39B55C1F5D9D1F6",
+            "customer_id": "ECE68E69159A420A94AB59A2A4C0A221",
+            "user_name": "ariel_zamora_8531",
+            "user_password": ")isHJccw1a08",
+            "user_email": "ieriaaaara200000@gmx.com",
+            "user_phone": "+34821 91 96 63",
+            "user_image_url": "https://placekitten.com/425/661",
+            "url": "https://www.neira.es/",
+            "user_created_at": "2019-11-06 04:42:14 UTC",
+            "user_updated_at": ""
+        },
+        "product_data": {
+            "product_id": "9BF102A958124E85BBF415D2087CC9EE",
+            "product_name": "Az\u00facar (Kg.)",
+            "product_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s  when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries  but also the leap into electronic typesetting  remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages  and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "product_price": "5766",
+            "product_category": "A granel",
+            "product_stock": "1432",
+            "product_rating": "2",
+            "product_rating_count": "388005",
+            "product_reviews_count": "439",
+            "product_reviews": "",
+            "product_tags": "Productos de pastas",
+            "product_created_at": "2000-01-01 12:00:00 UTC",
+            "product_updated_at": ""
+        },
+        "category_data": {
+            "category_id": "C58AA65B88C247A2861D18735641EFE8",
+            "category_name": "A granel",
+            "category_description": "Lorem Ipsum is simply dummy text of the ",
+            "category_image_url": "https://dummyimage.com/896x530",
+            "category_created_at": "2000-01-01 12:00:00 UTC",
+            "category_updated_at": ""
+        },
+        "order_data": {
+            "order_id": "62DF4CDAD62F453BBB31653CF91D1251",
+            "order_customer_id": "ECE68E69159A420A94AB59A2A4C0A221",
+            "order_product_id": "9BF102A958124E85BBF415D2087CC9EE",
+            "order_quantity": 4,
+            "order_price": "5766",
+            "order_created_at": "2022-01-09 21:22:02 UTC",
+            "order_updated_at": ""
+        },
+        "invoice_data": {
+            "invoice_id": "3AEE3AFFDF694A89877C5DA96DFB507D",
+            "invoice_customer_id": "ECE68E69159A420A94AB59A2A4C0A221",
+            "invoice_order_id": "62DF4CDAD62F453BBB31653CF91D1251",
+            "invoice_amount": "23064.0",
+            "invoice_created_at": "2021-10-03 04:56:49 UTC",
+            "invoice_updated_at": ""
+        }
+    }
+]

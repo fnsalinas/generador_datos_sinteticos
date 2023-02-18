@@ -1,0 +1,148 @@
+[
+    {
+        "client_data": {
+            "customer_id": "32E6771CB00547508DBAB281D414D3E0",
+            "nif": "93228981E",
+            "first_name": "Lorenza",
+            "last_name": "Ferrera",
+            "date_of_birth": "1991-12-08",
+            "sex": "female",
+            "blood_group": "B+",
+            "city": "Palencia",
+            "customer_address": "Ronda de Judith Ribes 6\nVizcaya, 07975",
+            "lat": "-41.8288425",
+            "long": "-160.605267",
+            "region": "Illes Balears",
+            "timezone": "Asia/Bahrain",
+            "customer_phone": "+34824 48 73 10",
+            "customer_email": "aoaeareereaf_10111102@protonmail.com",
+            "customer_created_at": "2017-12-28 17:53:31 UTC",
+            "customer_updated_at": ""
+        },
+        "user_data": {
+            "user_id": "3EABE4D0A5134C95B697BA879A7AFC4A",
+            "customer_id": "32E6771CB00547508DBAB281D414D3E0",
+            "user_name": "lorenza_ferrera_0845",
+            "user_password": "(5dE2FxZ",
+            "user_email": "aoaeareereaf_10111102@protonmail.com",
+            "user_phone": "+34824 48 73 10",
+            "user_image_url": "https://dummyimage.com/142x46",
+            "url": "https://tejero.com/",
+            "user_created_at": "2017-12-28 17:53:31 UTC",
+            "user_updated_at": ""
+        },
+        "product_data": {
+            "product_id": "DA9FA0D546C64697A80F9CFCC380034F",
+            "product_name": "Galleta (Kg.)",
+            "product_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s  when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries  but also the leap into electronic typesetting  remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages  and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "product_price": "6996",
+            "product_category": "Panificados",
+            "product_stock": "3378",
+            "product_rating": "1",
+            "product_rating_count": "927289",
+            "product_reviews_count": "126",
+            "product_reviews": "",
+            "product_tags": "Productos de panader\u00eda",
+            "product_created_at": "2000-01-01 12:00:00 UTC",
+            "product_updated_at": ""
+        },
+        "category_data": {
+            "category_id": "C665522ED9884D498332D951521E9DB7",
+            "category_name": "Panificados",
+            "category_description": "Lorem Ipsum is simply dummy text of the ",
+            "category_image_url": "https://placeimg.com/809/218/any",
+            "category_created_at": "2000-01-01 12:00:00 UTC",
+            "category_updated_at": ""
+        },
+        "order_data": {
+            "order_id": "4FC8E2C6BCF44A9D92C8AB0F611D3E17",
+            "order_customer_id": "32E6771CB00547508DBAB281D414D3E0",
+            "order_product_id": "DA9FA0D546C64697A80F9CFCC380034F",
+            "order_quantity": 3,
+            "order_price": "6996",
+            "order_created_at": "2023-02-02 01:45:29 UTC",
+            "order_updated_at": ""
+        },
+        "invoice_data": {
+            "invoice_id": "0A05A3925B164DC68C04E2DAFCE22875",
+            "invoice_customer_id": "32E6771CB00547508DBAB281D414D3E0",
+            "invoice_order_id": "4FC8E2C6BCF44A9D92C8AB0F611D3E17",
+            "invoice_amount": "20988.0",
+            "invoice_created_at": "2022-11-08 05:43:04 UTC",
+            "invoice_updated_at": ""
+        }
+    },
+    {
+        "client_data": {
+            "customer_id": "4B2F635F54AE4E5C8B28FFAA7612FF12",
+            "nif": "71672227H",
+            "first_name": "Mar\u00eda Dolores",
+            "last_name": "Raya",
+            "date_of_birth": "2015-11-10",
+            "sex": "female",
+            "blood_group": "B-",
+            "city": "Guip\u00fazcoa",
+            "customer_address": "Calle de Felipe Roca 41 Puerta 8 \nSanta Cruz de Tenerife, 42413",
+            "lat": "76.122372",
+            "long": "-43.285540",
+            "region": "Extremadura",
+            "timezone": "Pacific/Fiji",
+            "customer_phone": "+34 820 436 386",
+            "customer_email": "\u00edlo\u00edmod\u00edyray-2021@inbox.com",
+            "customer_created_at": "2018-11-17 22:36:15 UTC",
+            "customer_updated_at": ""
+        },
+        "user_data": {
+            "user_id": "DCB14C40686E4CCDA21ADCC6BDF9F531",
+            "customer_id": "4B2F635F54AE4E5C8B28FFAA7612FF12",
+            "user_name": "mar\u00eda_dolores_raya_9572",
+            "user_password": "3bH&5OBdU&",
+            "user_email": "\u00edlo\u00edmod\u00edyray-2021@inbox.com",
+            "user_phone": "+34 820 436 386",
+            "user_image_url": "https://picsum.photos/472/358",
+            "url": "http://godoy.es/",
+            "user_created_at": "2018-11-17 22:36:15 UTC",
+            "user_updated_at": ""
+        },
+        "product_data": {
+            "product_id": "BCED8BDB93F64CA3A38E3C03B417AD26",
+            "product_name": "Fideo (Kg.)",
+            "product_description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s  when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries  but also the leap into electronic typesetting  remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages  and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "product_price": "7200",
+            "product_category": "A granel",
+            "product_stock": "731",
+            "product_rating": "1",
+            "product_rating_count": "928804",
+            "product_reviews_count": "24",
+            "product_reviews": "",
+            "product_tags": "Productos de pastas",
+            "product_created_at": "2000-01-01 12:00:00 UTC",
+            "product_updated_at": ""
+        },
+        "category_data": {
+            "category_id": "C58AA65B88C247A2861D18735641EFE8",
+            "category_name": "A granel",
+            "category_description": "Lorem Ipsum is simply dummy text of the ",
+            "category_image_url": "https://dummyimage.com/896x530",
+            "category_created_at": "2000-01-01 12:00:00 UTC",
+            "category_updated_at": ""
+        },
+        "order_data": {
+            "order_id": "8B2012330AC04AD4AD61ABA0EA215A55",
+            "order_customer_id": "4B2F635F54AE4E5C8B28FFAA7612FF12",
+            "order_product_id": "BCED8BDB93F64CA3A38E3C03B417AD26",
+            "order_quantity": 6,
+            "order_price": "7200",
+            "order_created_at": "2022-10-11 09:42:56 UTC",
+            "order_updated_at": ""
+        },
+        "invoice_data": {
+            "invoice_id": "E301BF22E28B4F08B5F68CE90C23FFD5",
+            "invoice_customer_id": "4B2F635F54AE4E5C8B28FFAA7612FF12",
+            "invoice_order_id": "8B2012330AC04AD4AD61ABA0EA215A55",
+            "invoice_amount": "43200.0",
+            "invoice_created_at": "2023-02-13 01:52:33 UTC",
+            "invoice_updated_at": ""
+        }
+    }
+]
