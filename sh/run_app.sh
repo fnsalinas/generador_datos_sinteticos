@@ -3,6 +3,7 @@
 cd ~;
 APPPATH=$(find . -print | grep -i 'generador_datos_sinteticos$')
 
+echo "-----------> APPPATH:" $APPPATH;
 cd $APPPATH;
 
 # pipenv run uvicorn main:app --reload;
