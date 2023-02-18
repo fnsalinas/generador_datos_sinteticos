@@ -150,6 +150,18 @@ then
     echo $datetime "- nginx configured and restarted successfully" >> $LOGFILE
 else
     echo $datetime "- nginx already installed" >> $LOGFILE
+    echo $datetime "- Configuring nginx" >> $LOGFILE
+    echo $datetime "- writing nginx config with public ip: $PUBLIC_IP into /etc/nginx/sites-enabled/fastapi_nginx" >> $LOGFILE
+    sudo echo "server {
+        listen 80;
+        server_name $PUBLIC_IP;
+        location / {
+            proxy_pass http://127.0.0.1:8000;
+        }
+    }" > /etc/nginx/sites-enabled/fastapi_nginx
+    sudo service nginx restart
+    echo $datetime "- nginx configuration file data: " >> $LOGFILE
+    echo $(cat /etc/nginx/sites-enabled/fastapi_nginx) >> $LOGFILE
 fi
 
 # run the application ~/generador_datos_sinteticos/sh/run_app.sh if the actual foldername is generador_datos_sinteticos, if not, exit
