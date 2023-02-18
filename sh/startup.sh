@@ -1,7 +1,8 @@
 #!/bin/bash
 
 LOGFILE=~/startup.log;
-touch $LOGFILE;
+echo "" >> $LOGFILE;
+echo "------------- STARTING NEW LOG -------------" >> $LOGFILE;
 
 # Install Python 3.10 if not installed
 datetime=$(date '+%d/%m/%Y %H:%M:%S');
@@ -144,6 +145,8 @@ then
         }
     }" > /etc/nginx/sites-enabled/fastapi_nginx
     sudo service nginx restart
+    echo $datetime "- nginx configuration file data: " >> $LOGFILE
+    echo $(cat /etc/nginx/sites-enabled/fastapi_nginx) >> $LOGFILE
     echo $datetime "- nginx configured and restarted successfully" >> $LOGFILE
 else
     echo $datetime "- nginx already installed" >> $LOGFILE
