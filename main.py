@@ -25,10 +25,11 @@ def read_root(noclients: int):
 
 @app.get("/get_{noclients}_clients_csv")
 def read_root(noclients: int):
-    if noclients > 100:
-        return {"Error": "The number of clients must be less than 100, use the endpoint /get_100_clients_csv to get a csv file with more than 100 clients"}
-    clients_list: List[str] = [get_full_data() for i in range(noclients)]
-    return clients_list
+    # if noclients > 100:
+        # return {"Error": "Under construction..."}
+    # clients_list: List[str] = [get_full_data() for i in range(noclients)]
+    # return clients_list
+    return {"Error": "Under construction..."}
 
 # URL Documentation for the API: http://localhost:8000/docs
 
