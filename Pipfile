@@ -9,7 +9,9 @@ pandas = "*"
 faker = "*"
 pillow = "*"
 numpyencoder = "*"
-fastapi = "*"
+diffusers = "==0.8.0"
+requests = "*"
+fastapi = {extras = ["all"], version = "*"}
 uvicorn = "*"
 
 [dev-packages]
