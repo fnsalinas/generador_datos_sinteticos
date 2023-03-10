@@ -69,16 +69,16 @@ fi
 
 # clone the repository https://github.com/fnsalinas/generador_datos_sinteticos.git on main folder if not exists else update it
 echo $datetime "- Running clone_or_update_repository" >> $LOGFILE
-if [ -d "~/generador_datos_sinteticos" ]; then
-    echo $datetime "- ~/generador_datos_sinteticos already exists" >> $LOGFILE
+if [ -d "~/workspace/generador_datos_sinteticos" ]; then
+    echo $datetime "- ~/workspace/generador_datos_sinteticos already exists" >> $LOGFILE
     cd ~/generador_datos_sinteticos/
     git pull;
-    echo $datetime "- Finished updating ~/generador_datos_sinteticos" >> $LOGFILE
+    echo $datetime "- Finished updating ~/workspace/generador_datos_sinteticos" >> $LOGFILE
 else
-    echo $datetime "- ~/generador_datos_sinteticos does not exist" >> $LOGFILE
+    echo $datetime "- ~/workspace/generador_datos_sinteticos does not exist" >> $LOGFILE
     echo $datetime "- Cloning" >> $LOGFILE
     git clone https://github.com/fnsalinas/generador_datos_sinteticos.git
-    cd ~/generador_datos_sinteticos/
+    cd ~/workspace/generador_datos_sinteticos/
     echo $datetime "- Finished cloning" >> $LOGFILE
 fi
 
@@ -94,12 +94,12 @@ else
     echo "" >> ~/.bashrc
     echo "" >> ~/.bashrc
     echo "" >> ~/.bashrc
-    echo "alias python='python3'" >> ~/.bashrc
+    echo "alias python='python3.10'" >> ~/.bashrc
 fi
 
 echo $datetime "- Running source ~/.bashrc" >> $LOGFILE
 source ~/.bashrc;
-cd ~/generador_datos_sinteticos;
+cd ~/workspace/generador_datos_sinteticos;
 
 # Install dependencies if the actual foldername is generador_datos_sinteticos, if not, exit
 echo $datetime "- Running install_dependencies" >> $LOGFILE
@@ -118,57 +118,57 @@ else
     exit 1
 fi
 
-# get public ip from http://checkip.amazonaws.com and save it in a variable
-echo $datetime "- Running get_public_ip" >> $LOGFILE
-PUBLIC_IP=$(curl http://checkip.amazonaws.com)
-echo $datetime "- Public IP: $PUBLIC_IP" >> $LOGFILE
+# # get public ip from http://checkip.amazonaws.com and save it in a variable
+# echo $datetime "- Running get_public_ip" >> $LOGFILE
+# PUBLIC_IP=$(curl http://checkip.amazonaws.com)
+# echo $datetime "- Public IP: $PUBLIC_IP" >> $LOGFILE
 
-# install nginx if not installed
-echo $datetime "- Running install_nginx" >> $LOGFILE
-if ! command -v nginx &> /dev/null
-then
-    echo $datetime "- nginx could not be found" >> $LOGFILE
-    echo $datetime "- Installing nginx" >> $LOGFILE
-    sudo apt update && sudo apt upgrade -y
-    sudo apt install nginx -y
+# # install nginx if not installed
+# echo $datetime "- Running install_nginx" >> $LOGFILE
+# if ! command -v nginx &> /dev/null
+# then
+#     echo $datetime "- nginx could not be found" >> $LOGFILE
+#     echo $datetime "- Installing nginx" >> $LOGFILE
+#     sudo apt update && sudo apt upgrade -y
+#     sudo apt install nginx -y
     
-    echo $datetime "- Configuring nginx" >> $LOGFILE
-    sudo ufw app list
-    sudo ufw allow 'Nginx HTTP'
+#     echo $datetime "- Configuring nginx" >> $LOGFILE
+#     sudo ufw app list
+#     sudo ufw allow 'Nginx HTTP'
     
-    echo $datetime "- writing nginx config with public ip: $PUBLIC_IP into /etc/nginx/sites-enabled/fastapi_nginx" >> $LOGFILE
-    sudo echo "server {
-        listen 80;
-        server_name $PUBLIC_IP;
-        location / {
-            proxy_pass http://127.0.0.1:8000;
-        }
-    }" > /etc/nginx/sites-enabled/fastapi_nginx
-    sudo service nginx restart
-    echo $datetime "- nginx configuration file data: " >> $LOGFILE
-    echo $(cat /etc/nginx/sites-enabled/fastapi_nginx) >> $LOGFILE
-    echo $datetime "- nginx configured and restarted successfully" >> $LOGFILE
-else
-    echo $datetime "- nginx already installed" >> $LOGFILE
-    echo $datetime "- Configuring nginx" >> $LOGFILE
-    echo $datetime "- writing nginx config with public ip: $PUBLIC_IP into /etc/nginx/sites-enabled/fastapi_nginx" >> $LOGFILE
-    sudo echo "server {
-        listen 80;
-        server_name $PUBLIC_IP;
-        location / {
-            proxy_pass http://127.0.0.1:8000;
-        }
-    }" > /etc/nginx/sites-enabled/fastapi_nginx
-    sudo service nginx restart
-    echo $datetime "- nginx configuration file data: " >> $LOGFILE
-    echo $(cat /etc/nginx/sites-enabled/fastapi_nginx) >> $LOGFILE
-fi
+#     echo $datetime "- writing nginx config with public ip: $PUBLIC_IP into /etc/nginx/sites-enabled/fastapi_nginx" >> $LOGFILE
+#     sudo echo "server {
+#         listen 80;
+#         server_name $PUBLIC_IP;
+#         location / {
+#             proxy_pass http://127.0.0.1:8000;
+#         }
+#     }" > /etc/nginx/sites-enabled/fastapi_nginx
+#     sudo service nginx restart
+#     echo $datetime "- nginx configuration file data: " >> $LOGFILE
+#     echo $(cat /etc/nginx/sites-enabled/fastapi_nginx) >> $LOGFILE
+#     echo $datetime "- nginx configured and restarted successfully" >> $LOGFILE
+# else
+#     echo $datetime "- nginx already installed" >> $LOGFILE
+#     echo $datetime "- Configuring nginx" >> $LOGFILE
+#     echo $datetime "- writing nginx config with public ip: $PUBLIC_IP into /etc/nginx/sites-enabled/fastapi_nginx" >> $LOGFILE
+#     sudo echo "server {
+#         listen 80;
+#         server_name $PUBLIC_IP;
+#         location / {
+#             proxy_pass http://127.0.0.1:8000;
+#         }
+#     }" > /etc/nginx/sites-enabled/fastapi_nginx
+#     sudo service nginx restart
+#     echo $datetime "- nginx configuration file data: " >> $LOGFILE
+#     echo $(cat /etc/nginx/sites-enabled/fastapi_nginx) >> $LOGFILE
+# fi
 
-# run the application ~/generador_datos_sinteticos/sh/run_app.sh if the actual foldername is generador_datos_sinteticos, if not, exit
+# run the application ~/workspace/generador_datos_sinteticos/sh/run_app.sh if the actual foldername is generador_datos_sinteticos, if not, exit
 echo $datetime "- Running run_app" >> $LOGFILE
 if [ "${PWD##*/}" = "generador_datos_sinteticos" ]; then
-    echo $datetime "- Running ~/generador_datos_sinteticos/sh/run_app.sh" >> $LOGFILE
-    bash ~/generador_datos_sinteticos/sh/run_app.sh
+    echo $datetime "- Running ~/workspace/generador_datos_sinteticos/sh/run_app.sh" >> $LOGFILE
+    bash ~/workspace/generador_datos_sinteticos/sh/run_app.sh
 else
     echo $datetime "- The actual foldername is not generador_datos_sinteticos, exiting" >> $LOGFILE
     exit 1
