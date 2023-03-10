@@ -4,14 +4,12 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-synthetic-data-generator = {editable = true, path = "."}
 pandas = "*"
 faker = "*"
 pillow = "*"
 numpyencoder = "*"
 diffusers = "==0.8.0"
 requests = "*"
-fastapi = {extras = ["all"], version = "*"}
 uvicorn = "*"
 
 [dev-packages]
@@ -20,3 +18,14 @@ autopep8 = "*"
 
 [requires]
 python_version = "3"
+
+[packages.synthetic-data-generator]
+editable = true
+path = "."
+
+[packages.fastapi]
+extras = [ "all",]
+
+[packages.e1839a8]
+path = "."
+editable = true

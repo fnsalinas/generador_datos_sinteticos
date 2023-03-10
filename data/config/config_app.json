@@ -10,5 +10,11 @@
         "ip": "127.0.0.1",
         "port": 8000,
         "aws_ipv4": "3.130.56.233"
+    },
+    "LAPTOP-UGPM9M3V": {
+        "app_main_path": "/home/carlos/workspace/generador_datos_sinteticos",
+        "ip": "localhost",
+        "port": 8000,
+        "aws_ipv4": "201.244.216.222"
     }
 }

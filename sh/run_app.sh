@@ -1,7 +1,7 @@
 #!/bin/bash
 
-cd ~;
-APPPATH=$(ls -lsrtah ~/ | grep -i generador_datos_sinteticos$);
+cd ~/workspace/;
+APPPATH=$(ls -lsrtah ~/workspace/ | grep -i generador_datos_sinteticos$);
 APPPATH=$(echo $APPPATH | awk '{print $NF}' | tail -1);
 
 echo "-----------> APPPATH:" $APPPATH;
